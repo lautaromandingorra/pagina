@@ -1,0 +1,92 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  width: 150px;
+}
+.header ul {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.header li {
+  list-style: none;
+  font-size: 28px;
+  margin: 0px 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.noticias {
+  width: 100%;
+  margin: 15px 0;
+  padding: 15px;
+}
+.noticias h1 {
+  font-size: 21px;
+  color: rgb(39, 16, 92);
+  text-align: justify;
+}
+.noticias p {
+  font-size: 18px;
+  text-align: justify;
+}
+button {
+  background-color: rgb(3, 79, 12);
+  color: white;
+  padding: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  background-color: rgb(100, 21, 45);
+  height: 100px;
+}
+footer a {
+  color: rgb(134, 31, 109);
+}
+
+.btn-primary {
+  border: solid 1px hsl(300, 52%, 43%);
+  background-color: hsl(281, 61%, 30%);
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+  box-shadow: none;
+  border: solid 1px hsl(340, 60%, 26%);
+  background-color: hsl(88, 82%, 44%);
+}
+.boob{
+  margin-left: 30px
+}
+.anda{
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+
+
+#miimagen {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
